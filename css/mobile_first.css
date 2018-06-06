@@ -5,6 +5,7 @@ header, main, aside {
     background-color: white;
     padding: 3%;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*Header----------------------------------------------------------------*/
@@ -36,11 +37,11 @@ nav ul {
 
 nav ul a{
     text-decoration: none;
-    color: black;
+    color: #2497ff;
 }
 
 /*Main------------------------------------------------------------------*/
-h2,h3{
+h2, h3{
 
     color: black;
     font-weight: bold;
@@ -65,4 +66,46 @@ margin: 1em 0;
     aside {
         display: none;
     }
+}
+
+@media screen and (min-width: 720px){
+    header, aside{
+        width: 27%;
+        display: inline-block;
+    }
+    main {
+        width: 44%;
+        display: inline-block;
+    }
+
+    header, aside, main {
+        vertical-align: top;
+    }
+
+    aside section h3 {
+        margin-top: 3em;
+        margin-bottom: 1.5em;
+    }
+
+    aside ul li {
+            list-style: initial;
+            margin: 5% 0 8% 25%;
+    }
+
+    aside a {
+        text-decoration: none;
+        color: #2497ff;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 1em 0;
+        text-align: right;
+    }
+
+    nav li {
+        margin: 2% 0;
+    }
+
+
 }
