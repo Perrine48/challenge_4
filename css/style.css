@@ -1,0 +1,69 @@
+/*General--------------------------------------------------------------------*/
+
+header, main, footer {
+    font-family: Questrial;
+}
+
+/*Header--------------------------------------------------------------------*/
+header {
+    background-color: #2056ac;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header i {
+    font-size: 4em;
+}
+
+header h1 {
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 5em;
+    margin-bottom: 4%;
+}
+
+header li {
+    margin: 2%;
+    text-transform: capitalize;
+}
+
+header li a:hover {
+    color: #2056ac;
+    z-index: 1;
+}
+
+header li:hover {
+    padding: 2%;
+    margin: 0;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+/*Main----------------------------------------------------------------------*/
+
+/*Section article-----------------------------------------------------------*/
+
+/*Section little article----------------------------------------------------*/
+
+/*Section contact-----------------------------------------------------------*/
+
+/*Footer--------------------------------------------------------------------*/
