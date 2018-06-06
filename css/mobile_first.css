@@ -2,18 +2,61 @@
 header, main, aside {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    padding: 3%;
+    box-sizing: border-box;
 }
 
 /*Header----------------------------------------------------------------*/
 header, nav {
     align-items: center;
+    display: inline-block;
+    width: 100%;
 }
+
+h1{
+    font-size: 2em;
+    color: black;
+    margin: 1em auto;
+    text-align: center;
+}
+
 /*Nav-------------------------------------------------------------------*/
 nav ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 1em  25% ;
+    border-top: solid 1px #DADADA;
+    border-bottom: solid 1px #DADADA;
+
+
 }
+
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
 /*Main------------------------------------------------------------------*/
+h2,h3{
+
+    color: black;
+    font-weight: bold;
+
+}
+
+h2{
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+h3{
+margin: 1em 0;
+
+}
+
 
 /*Aside-----------------------------------------------------------------*/
 
