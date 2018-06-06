@@ -47,7 +47,7 @@ header li {
     text-transform: capitalize;
 }
 
-header li a:hover {
+header li:hover a {
     color: #2056ac;
     z-index: 1;
 }
