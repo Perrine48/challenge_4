@@ -90,7 +90,7 @@ img {
 
 h2 {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 2% 0;
     text-align: center;
     margin: 7% 0;
@@ -106,20 +106,119 @@ hr{
     color: #EDEDEE;
     width: 100%;
     border: solid 1px;
+    margin-top: 10%;
 }
 
 /*Section article-----------------------------------------------------------*/
 
+.section_big {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_big article {
+    text-align: center;
+}
+
+.section_big h3 {
+    margin: 15% 0 4% 0;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.section_big p {
+    font-size: 0.8em;
+    margin-bottom: 10%;
+}
+
+.section_big a {
+    text-transform: capitalize;
+    border: solid 1px #64abd1;
+    text-decoration: none;
+    background-color:#64abd1;
+    color: white;
+    padding: 2%;
+}
+
+.
 /*Section little article----------------------------------------------------*/
 
+.section_little {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_little article {
+    text-align: center;
+}
+
+.section_little h4 {
+    margin: 15% 0 4% 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.section_little p {
+    font-size: 0.8em;
+    margin-bottom: 10%;
+}
+
+.section_little a {
+    text-transform: capitalize;
+    border: solid 1px #64abd1;
+    text-decoration: none;
+    background-color:#64abd1;
+    color: white;
+    padding: 2%;
+}
+
 /*Section contact-----------------------------------------------------------*/
+
+.contact {
+    background-color: #e3f0f7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.contact a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #5b6063;
+}
+
+.contact i {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
 
 /*Footer--------------------------------------------------------------------*/
 
 
 
 /* Media --------------------------------------------------------------------*/
+/* .section_big {
+    display: flex;
+    justify-content: center;
+}
 
+.section_big article {
+    width: 32%;
+    text-align: center;
+}
+
+.section_big article p {
+    padding: 5%;
+}
+
+.section_big article h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+} */
 /* @media screen and (max-width:480px) {
     header, main, footer {
         font-size: 1rem;
