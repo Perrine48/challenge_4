@@ -1,8 +1,11 @@
 /*General--------------------------------------------------------------------*/
-
+body {
+    /* font-size: 1em; */
+}
 header, main, footer {
     font-family: Questrial;
     width: 100%;
+
 }
 
 /*Header--------------------------------------------------------------------*/
@@ -16,6 +19,18 @@ header {
     padding-top: 10%;
 }
 
+header i {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+header h1 {
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 4%;
+}
+
 nav ul {
     display: flex;
     width: 100%;
@@ -25,6 +40,7 @@ nav ul {
 nav {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 header a {
@@ -32,21 +48,10 @@ header a {
     color: white;
 }
 
-header i {
-    font-size: 7em;
-}
-
-header h1 {
-    margin-bottom: 5%;
-    font-weight: bold;
-    font-size: 7em;
-    margin-bottom: 4%;
-}
-
 header li {
     margin: 2%;
     text-transform: capitalize;
-    font-size: 2em;
+    font-size: 0.8em;
 }
 
 header li:hover a {
@@ -65,14 +70,43 @@ header li:hover {
 main {
     display: flex;
     flex-direction: column;
+    padding: 5%;
+    box-sizing: border-box;
 
 }
 
+main section:nth-of-type(1){
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 3% 0;
+}
 img {
-    width: 90%;
-    margin: 5% auto;
+    width: 100%;
+
+
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 2% 0;
+    text-align: center;
+    margin: 7% 0;
+}
+
+main section:nth-of-type(1) p{
+
+    font-size: 0.8em;
+    padding: 3%;
+
+}
+hr{
+    color: #EDEDEE;
+    width: 100%;
+    border: solid 1px;
+}
 
 /*Section article-----------------------------------------------------------*/
 
@@ -81,3 +115,14 @@ img {
 /*Section contact-----------------------------------------------------------*/
 
 /*Footer--------------------------------------------------------------------*/
+
+
+
+/* Media --------------------------------------------------------------------*/
+
+/* @media screen and (max-width:480px) {
+    header, main, footer {
+        font-size: 1rem;
+    }
+
+} */
